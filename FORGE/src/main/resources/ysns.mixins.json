@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "elocindev.ysns.forge.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "ysnsforge.refmap.json",
+  "mixins": [
+    "ServerWorldMixin"
+  ],
+  "client": [
+  ],
+  "minVersion": "0.8"
+}

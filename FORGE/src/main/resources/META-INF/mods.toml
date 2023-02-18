@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[37,)" 
+license="AGNYA License"
+
+[[mods]] 
+modId="ysns" 
+version="1.0.1" 
+displayName="You Shall Not Spawn!" 
+logoFile="ysns.png" 
+credits="https://github.com/nvb-uy" 
+authors="ElocinDev" 
+description='''
+Adds a configurable, data-driven way to prevent mobs from spawning altogether.
+'''
+[[dependencies.ysns]] #optional
+    modId="forge" 
+    mandatory=true 
+    versionRange="[37,)" 
+    ordering="NONE"
+    side="BOTH"

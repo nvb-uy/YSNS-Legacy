@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "ysns",
+  "version": "1.0.1",
+
+  "name": "You Shall Not Spawn!",
+  "description": "Prevents entities from spawning with data-driven config using JSON.",
+  "authors": [
+    "ElocinDev"
+  ],
+  "contact": {
+    "homepage": "https://curseforge.com/members/elocindev/projects",
+    "sources": "https://github.com/nvb-uy/ysns"
+  },
+
+  "license": "AGNYA License",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "elocindev.ysns.fabric_quilt.YSNS"
+    ]
+  },
+  "mixins": [
+    "ysns.fabricmixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "java": ">=17"
+  }
+}
