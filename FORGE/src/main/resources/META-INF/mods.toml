@@ -4,7 +4,7 @@ license="AGNYA License"
 
 [[mods]] 
 modId="ysns" 
-version="1.0.1" 
+version="1.0.2" 
 displayName="You Shall Not Spawn!" 
 logoFile="ysns.png" 
 credits="https://github.com/nvb-uy" 
