@@ -14,8 +14,7 @@ import net.minecraft.client.Minecraft;
 public class ConfigBuilder {
     public static final Gson BUILDER = (new GsonBuilder()).setPrettyPrinting().create();
   
-    public static final Path file = Paths.get(Minecraft.getInstance().gameDirectory.getAbsolutePath(), "config")
-    .resolve("ysns.json");
+    public static final Path file = FMLPaths.GAMEDIR.get().toAbsolutePath().resolve("config").resolve("ysns.json");
     
     public static ConfigEntries loadConfig() {
       try {
