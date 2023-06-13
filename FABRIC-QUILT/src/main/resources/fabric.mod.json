@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "ysns",
-  "version": "1.0.1",
+  "version": "1.0.4",
 
   "name": "You Shall Not Spawn!",
   "description": "Prevents entities from spawning with data-driven config using JSON.",
